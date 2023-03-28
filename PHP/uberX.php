@@ -14,5 +14,13 @@ class UberX extends Car {
         $this->model = $model;
     }
 
+    public function setPassengers() {
+        if($passengers == 4){
+            $this->passengers == $passengers;
+        }else{
+            echo"Only 4 passengers";
+        }
+    }
+
 }
 ?>
